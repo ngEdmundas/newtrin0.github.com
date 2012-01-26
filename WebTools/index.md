@@ -10,7 +10,7 @@ layout: boiler
 ## HTML5/CSS3 boilerplate
 
 * [Bootstrap, from Twitter] (http://twitter.github.com/bootstrap/) ([GitHub - 1.4] (https://github.com/twitter/bootstrap)) ([2.0-wip] (https://github.com/twitter/bootstrap/tree/2.0-wip))
-* [HTML5 boilerplate] (http://html5boilerplate.com/) ([Docs] (http://html5boilerplate.com/docs/)) ([GitHub] (http://github.com/h5bp/html5-boilerplate)) ([Mobile] (https://github.com/h5bp/mobile-boilerplate))
+* [HTML5 ✰ Boilerplate] (http://html5boilerplate.com/) ([Docs] (http://html5boilerplate.com/docs/)) ([GitHub] (http://github.com/h5bp/html5-boilerplate)) ([Mobile] (https://github.com/h5bp/mobile-boilerplate))
 * [HTML KickStart] (http://www.99lime.com/)
 * [HTML5 Rocks] (http://www.html5rocks.com/)
 
