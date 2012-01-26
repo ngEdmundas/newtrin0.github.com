@@ -1,6 +1,6 @@
 ---
 title: Web Tools
-layout: ../_layout/default
+layout: default
 ---
 
 # Client side
