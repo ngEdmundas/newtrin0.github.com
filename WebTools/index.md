@@ -14,12 +14,13 @@ layout: boiler
 * [HTML KickStart] (http://www.99lime.com/)
 * [HTML5 Rocks] (http://www.html5rocks.com/)
 
-## Javascript frameworks
+## JavaScript frameworks
 
-* [DailyJS] (http://dailyjs.com/) - A Javascript blog
-* [The Top 10 Javascript MVC Frameworks Reviewed] (http://codebrief.com/2012/01/the-top-10-javascript-mvc-frameworks-reviewed/)
+* [DailyJS] (http://dailyjs.com/) - A JavaScript blog
+* [The Top 10 JavaScript MVC Frameworks Reviewed] (http://codebrief.com/2012/01/the-top-10-javascript-mvc-frameworks-reviewed/)
 * [TodoMVC] (http://addyosmani.github.com/todomvc/) - A common learning application for popular JavaScript MVC frameworks ([GitHub] (https://github.com/addyosmani/todomvc))
-* [Understanding Javascript OOP] (http://killdream.github.com/blog/2011/10/understanding-javascript-oop/index.html)
+* [Understanding JavaScript OOP] (http://killdream.github.com/blog/2011/10/understanding-javascript-oop/index.html)
+* [Badass JavaScript] (http://badassjs.com/)
 
 ### Jeremy Jashkenas
 
