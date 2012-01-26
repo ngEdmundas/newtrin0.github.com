@@ -53,23 +53,35 @@ layout: boiler
 ## node.js ecosystem
 
 * [Node.js](http://nodejs.org/) ([on GitHub] (https://github.com/joyent/node)) [Manual] (http://nodejs.org/docs/latest/api/index.html) ([Nodeup podcast] (http://nodeup.com/))
-* [Node version management] (https://github.com/visionmedia/n)
 * [Node development stack] (http://venturebeat.com/2012/01/07/building-consumer-apps-with-node/)
-* [NPM] (https://github.com/isaacs/npm)
 * Modules: [NPM] (http://search.npmjs.org/) | [no.de] (http://toolbox.no.de/) | [GitHub] (https://github.com/joyent/node/wiki/modules)
-* Middleware - [connect] (http://www.senchalabs.org/connect/) ([GitHub] (https://github.com/senchalabs/connect))
+
+### by [TJ Holowaychuk] (http://tjholowaychuk.com/)
+
+* [Node version management] (https://github.com/visionmedia/n)
 * [express.js] (https://github.com/visionmedia/express)
+* [Jade] (http://jade-lang.com/) ([GitHub] (https://github.com/visionmedia/jade))
+* Testing - [Mocha] (http://visionmedia.github.com/mocha/) ([GitHub] (https://github.com/visionmedia/mocha))
+
+### by LearnBoost
+
 * [socket.io] (https://github.com/LearnBoost/socket.io)
+* [Stylus] (http://learnboost.github.com/stylus/) ([GitHub] (https://github.com/learnboost/stylus))
+
+### by FlatIron
+
+* [Flatiron] (http://flatironjs.org/) ([GitHub] (https://github.com/flatiron/flatiron))
+* Logging - [Winston] (https://github.com/flatiron/winston)
+
+### by others
+
+* [NPM] (https://github.com/isaacs/npm)
+* Middleware - [connect] (http://www.senchalabs.org/connect/) ([GitHub] (https://github.com/senchalabs/connect))
 * [dnode] (https://github.com/substack/dnode)
 * [async.js] (https://github.com/caolan/async)
-* [Jade] (http://jade-lang.com/) ([GitHub] (https://github.com/visionmedia/jade))
 * [Handlebars for Jade] (https://github.com/donpark/hbs)
-* [Stylus] (http://learnboost.github.com/stylus/) ([GitHub] (https://github.com/learnboost/stylus))
-* [Flatiron] (http://flatironjs.org/) ([GitHub] (https://github.com/flatiron/flatiron))
 * [Mu] (https://github.com/raycmorgan/Mu) - Mustache compiler for node.js
 * [node.io] (http://node.io/) Data scraping and processing framework ([on GitHub](https://github.com/chriso/node.io))
-* Logging - [Winston] (https://github.com/flatiron/winston)
-* Testing - [Mocha] (http://visionmedia.github.com/mocha/) ([GitHub] (https://github.com/visionmedia/mocha))
 * BDD & Continuous integration - [Wows] (http://vowsjs.org/) ([GitHub] (https://github.com/cloudhead/vows))
 
 ## JVM ecosystem
