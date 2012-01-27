@@ -22,7 +22,7 @@ layout: boiler
 * [Understanding JavaScript OOP] (http://killdream.github.com/blog/2011/10/understanding-javascript-oop/index.html)
 * [Badass JavaScript] (http://badassjs.com/)
 
-### Jeremy Jashkenas
+### Jeremy Ashkenas
 
 * [backbone.js] (http://backbonejs.org/) ([GitHub] (https://github.com/documentcloud/backbone/)) ([Manual] (http://documentcloud.github.com/backbone/))
 ([Tutorials, examples] (https://github.com/documentcloud/backbone/wiki/Tutorials%2C-blog-posts-and-example-sites))
