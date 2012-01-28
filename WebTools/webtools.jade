@@ -3,7 +3,12 @@
 | layout: boiler
 | ---
 .container-fluid
-  .sidebar
+  .sidebar.sidebar-fluid
+    a(href='#tutorials') Tutorials &gt;
+    a(href='#hosting') Hosting &gt;
+    a(href='#cdn') CDNs &gt;
+    a(href='#client') Client side &gt;
+    a(href='#server') Server side &gt;
   .content
     .row
       h4.span2 Type
@@ -13,7 +18,8 @@
       h4.span2 Docs
       h4.span2 Twitter
     .row
-      h2.span12 Tutorials/Examples/Articles
+      a(name='tutorials')
+        h2.span12 Tutorials/Examples/Articles
     .row
       .span2 Tutorial
       .span2
@@ -112,7 +118,8 @@
         a(href='https://plus.google.com/108013289718549178736') G+
 
     .row
-      h2.span12 Hosting
+      a(name='hosting')
+        h2.span12 Hosting
     .row
       .span2 Hosting
       .span2
@@ -205,7 +212,8 @@
         a(href='http://twitter.com/nodester') @nodester
 
     .row
-      h3.span12 Content Delivery Networks
+      a(name='cdn')
+        h3.span12 Content Delivery Networks
     .row
       .span2 CDN
       .span2
@@ -253,7 +261,8 @@
         a(href='https://plus.google.com/101608559187380638042') G+
 
     .row
-      h2.span12 Client side
+      a(name='client')
+        h2.span12 Client side
     .row
       h3.span12 HTML5/CSS3 Boilerplates
     .row
@@ -516,7 +525,8 @@
         a(href='http://twitter.com/janl') @janl
 
     .row
-      h2.span12 Server side
+      a(name='server')
+        h2.span12 Server side
     .row
       h3.span12 node.js ecosystem
     .row
