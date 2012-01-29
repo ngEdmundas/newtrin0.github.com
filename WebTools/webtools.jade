@@ -2,20 +2,33 @@
 | title: Web Tools
 | layout: boiler
 | ---
+style 
+  #toc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 0 0 15px;
+    padding: 15px;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    overflow: auto;
+    border-right: 1px solid rgba(255,255,255,0.05);
+  }
 .container-fluid
   .row
       .sidebar.sidebar-fluid.span2
-        h3 Contents
-        .span2
-         a(href='#tutorials') Tutorials &raquo;
-        .span2
-          a(href='#hosting') Hosting &raquo;
-        .span2
-          a(href='#cdn') CDNs &raquo;
-        .span2
-          a(href='#client') Client side &raquo;
-        .span2
-          a(href='#server') Server side &raquo;
+        #toc
+          h3 Contents
+          .span2
+           a(href='#tutorials') Tutorials &raquo;
+          .span2
+            a(href='#hosting') Hosting &raquo;
+          .span2
+            a(href='#cdn') CDNs &raquo;
+          .span2
+            a(href='#client') Client side &raquo;
+          .span2
+            a(href='#server') Server side &raquo;
       .content.span10
         h1 Web Tools
         .row
