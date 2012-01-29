@@ -14,14 +14,22 @@ style
     overflow: auto;
     border-right: 1px solid rgba(255,255,255,0.05);
   }
+  #toc li {
+    padding: 0;
+    list-style: none;
+  }
   #container-custom {
     margin: 0 auto;
     padding-top: 80px;
     width: 550px;
   }
-.container-fluid.container-custom
-  .row
-      .sidebar.sidebar-fluid.span2
+  #wrapper {
+    width: 100%;
+    min-height: 800px;
+  }
+.wrapper
+  .container-fluid.container-custom
+    .sidebar.sidebar-fluid.span2
         #toc
           h3 Contents
           ul
@@ -35,7 +43,7 @@ style
               a(href='#client') Client side &raquo;
             li
               a(href='#server') Server side &raquo;
-      .content.span10
+    .content.span10
         h1 Web Tools
         .row
           h4.span1 Type
