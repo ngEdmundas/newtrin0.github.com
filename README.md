@@ -1,5 +1,5 @@
 ---
-layout: boiler
+layout: boilerytics
 title: README
 ---
 
