@@ -3,9 +3,6 @@ layout: boiler
 title: README
 ---
 
-# This is README file
+# A home for Web Tools list
 
-## An empty chapter
-
-* one
-* two
+[Web Tools](http://http://newtrin0.github.com/WebTools/webtools.html)
