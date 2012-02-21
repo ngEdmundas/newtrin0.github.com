@@ -1,3 +1,9 @@
 .content .row {
   border-top: 1px solid #cef;
 }
+.content .row .t2 {
+  border-top: 1px solid #08f;
+}
+.content .row .t3 {
+  border-top: 1px solid #8cf;
+}
