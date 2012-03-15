@@ -51,45 +51,50 @@ style
         .row.t2
           h4.span1 Name
           h4.span1 Op
-          h4.span2 URL
+          h4.span3 URL
           h4.span3 Req
           h4.span3 Resp
-          h4.span2 Notes
+          h4.span1 Notes
         .row.t2
           a(name='podio')
             h2.span12 Hooks
         .row
           .span1 Create hook
           .span1 POST
-          .span2 /hook/{ref_type}/{ref_id}/
+          .span3 /hook/{ref_type}/{ref_id}/
           .span3 {"url": url, "type": events}
           .span3 {"hook_id": id}
-          .span2 App auth
+          .span1 App auth
         .row
           .span1 Delete hook
           .span1 DELETE
-          .span2 /hook/{hook_id}
+          .span3 /hook/{hook_id}
           .span3 -
           .span3 -
-          .span2 ...
+          .span1 ...
         .row
           .span1 Get hooks
           .span1 GET
-          .span2 /hook/{ref_type}/{ref_id}/
+          .span3 /hook/{ref_type}/{ref_id}/
           .span3 -
           .span3 [{"hook_id": id, "status": inactive/active, "type": type, "url": url},...]
-          .span2 App auth
+          .span1 App auth
         .row
           .span1 Request hook verification
           .span1 POST
-          .span2 /hook/{hook_id}/verify/request
+          .span3 /hook/{hook_id}/verify/request
           .span3 -
           .span3 -
-          .span2 App auth, calls hook url with {"type": "hook_verify", "code": code}
+          .span1 App auth, calls hook url with {"type": "hook_verify", "code": code}
         .row
           .span1 Validate hook verification
           .span1 POST
-          .span2 /hook/{hook_id}/verify/validate
+          .span3 /hook/{hook_id}/verify/validate
           .span3 {"code": code}
           .span3 -
-          .span2 No auth
+          .span1 No auth
+        .row.t2
+          #note.span10 Prepared by: 
+            a(href='https://github.com/newtrin0')
+              sub Neνtrino
+              sup 2012
