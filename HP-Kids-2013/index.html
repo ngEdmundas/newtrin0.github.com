@@ -1,8 +1,61 @@
+<!doctype html>
 <html>
+
   <head>
+    <meta charset="utf-8" />
     <title>HP Kids 2013</title>
+
+    <link rel="stylesheet" href="lib/codemirror.css" />
+    <link rel="stylesheet" href="lib/firepad.css" />
+    <link rel="stylesheet" href="lib/firepad-userlist.css" />
+    <link rel="stylesheet" href="kids.css" />
+    <link href="favicon.ico" rel="shortcut icon" />
   </head>
+
   <body>
-    <h1>HP Kids 2013</h1>
+    <div id="fb-root"></div>
+    <div id="top">
+      <div id="top-bg-tile">
+        <div id="top-content">
+          <div id="firepad-demo"></div>
+          <a onclick="displayPads()" id="my-pads" class="sprite-btn"></a>
+          <a href="./" id="create-pad" class="sprite-btn"></a>
+          <div id="my-pads-list">
+          </div>
+          <div id="firepad-container">
+            <div id="firepad-userlist"></div>
+            <div id="firepad"></div>
+          </div>
+          <div id="share-box">
+            <div id="share-with-friends">Edit with Friends</div>
+            <div id="share-features">
+              <table>
+                <tr>
+                  <td>
+                    <input type="text" readonly="readonly" id="url" />
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div id="description">Firepad is an open source collaborative text editor you can add to <b>your</b> own website.
+            <div id="learn-more"><a href="http://www.firepad.io/">Learn More &gt;</a></div>
+          </div>
+          <a href="http://www.firebase.com/?utm_source=demo&utm_medium=email&utm_campaign=firepad" target="_blank" id="powered-by-firebase"></a>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.firebase.com/v0/firebase.js"></script>
+    <script src="lib/codemirror.js"></script>
+    <script src="lib/firepad.js"></script>
+    <script src="lib/firepad-userlist.js"></script>
+    <script src="//code.jquery.com/jquery-2.0.2.js"></script>
+    <script src="kids.js"></script>
+
+    <script type="text/javascript">
+      function displayPads() {
+        $('#my-pads-list').toggle();
+      }
+    </script>
   </body>
 </html>
