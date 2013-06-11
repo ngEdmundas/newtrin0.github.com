@@ -7,6 +7,7 @@
     <file path="/Dummy.txt" changelist="9a60e460-22f4-4efb-9650-99839462c208" time="1370952054354" ignored="false" />
     <file path="/index.html" changelist="9a60e460-22f4-4efb-9650-99839462c208" time="1370952651793" ignored="false" />
     <file path="/kids.css" changelist="9a60e460-22f4-4efb-9650-99839462c208" time="1370954050114" ignored="false" />
+    <file path="/kids.js" changelist="9a60e460-22f4-4efb-9650-99839462c208" time="1370954577431" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +69,22 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="kids.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="kids.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/kids.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="0" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.625">
+                <state line="40" column="0" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.0">
                   <folding>
                     <element signature="e#637#1340#2" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="kids.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/kids.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.171875">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -93,12 +103,13 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/kids.css" />
+        <option value="$PROJECT_DIR$/kids.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4144" />
-    <option name="y" value="2342" />
+    <option name="x" value="48" />
+    <option name="y" value="1176" />
     <option name="width" value="2001" />
     <option name="height" value="1157" />
   </component>
@@ -194,7 +205,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4144" y="2342" width="2001" height="1157" extended-state="6" />
+    <frame x="48" y="1176" width="2001" height="1157" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -299,10 +310,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kids.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.625">
+        <state line="40" column="0" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#637#1340#2" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kids.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.171875">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -8,9 +8,10 @@ function joinFirepadForHash() {
     $('.CodeMirror').remove();
   }
 
-  var id = window.location.hash.replace(/#/g, '') || randomString(10);
+//  var id = window.location.hash.replace(/#/g, '') || randomString(10);
+  var id = "HPkids";
   var url = window.location.toString().replace(/#.*/, '') + '#' + id;
-  var firepadRef = new Firebase('https://firepad.firebaseio.com/demo').child(id);
+  var firepadRef = new Firebase('https://hp-kids.firebaseio.com/demo2013').child(id);
 
   var userId = firepadRef.push().name(); // Just a random ID.
   codeMirror = CodeMirror(document.getElementById('firepad'), { lineWrapping: true });
@@ -21,7 +22,7 @@ function joinFirepadForHash() {
 
   firepad.on('ready', function() {
     if (firepad.isHistoryEmpty()) {
-      firepad.setText('Welcome to your own private pad!\n\nShare the URL below and collaborate with your friends.');
+      firepad.setText('HP vaikų dienos 2013\n\nRašykite kartu su draugais.');
     }
 
     ensurePadInList(id);
