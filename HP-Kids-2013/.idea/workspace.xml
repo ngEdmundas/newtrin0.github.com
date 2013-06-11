@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="9a60e460-22f4-4efb-9650-99839462c208" time="1370952054354" ignored="false" />
     <file path="/index.html" changelist="9a60e460-22f4-4efb-9650-99839462c208" time="1370952651793" ignored="false" />
-    <file path="/kids.css" changelist="9a60e460-22f4-4efb-9650-99839462c208" time="1370953508661" ignored="false" />
+    <file path="/kids.css" changelist="9a60e460-22f4-4efb-9650-99839462c208" time="1370954050114" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +71,9 @@
           <file leaf-file-name="kids.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/kids.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="36" column="0" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.5625">
+                <state line="40" column="0" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.625">
                   <folding>
-                    <element signature="e#458#1161#2" expanded="true" />
+                    <element signature="e#637#1340#2" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -299,9 +299,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kids.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.5625">
+        <state line="40" column="0" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.625">
           <folding>
-            <element signature="e#458#1161#2" expanded="true" />
+            <element signature="e#637#1340#2" expanded="true" />
           </folding>
         </state>
       </provider>
