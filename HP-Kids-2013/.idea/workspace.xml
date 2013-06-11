@@ -6,6 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="9a60e460-22f4-4efb-9650-99839462c208" time="1370952054354" ignored="false" />
     <file path="/index.html" changelist="9a60e460-22f4-4efb-9650-99839462c208" time="1370952651793" ignored="false" />
+    <file path="/kids.css" changelist="9a60e460-22f4-4efb-9650-99839462c208" time="1370953508661" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,17 +25,63 @@
     <favorites_list name="HP-Kids-2013" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="16" selection-start="282" selection-end="282" vertical-scroll-proportion="0.15806112">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="39" column="0" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.625">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="codemirror.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/codemirror.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="codemirror.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/codemirror.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="firepad.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/firepad.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="kids.css" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/kids.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="36" column="0" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.5625">
+                  <folding>
+                    <element signature="e#458#1161#2" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -45,6 +92,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/kids.css" />
       </list>
     </option>
   </component>
@@ -228,10 +276,33 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/codemirror.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/firepad.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="282" selection-end="282" vertical-scroll-proportion="0.15806112">
+        <state line="39" column="0" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.625">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kids.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.5625">
+          <folding>
+            <element signature="e#458#1161#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
