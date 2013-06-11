@@ -125,8 +125,9 @@ body {
   top: 80px;
   right: 30px;
   bottom: 125px;
-  background: white;
-  /* TODO: Tune these more? */
+/*  background: white; */
+  background: rgba(255, 255, 255, 0.7);
+/* TODO: Tune these more? */
   -moz-box-shadow: 0 5px 25px #333;
   -webkit-box-shadow: 0 5px 25px #333;
   box-shadow: 0 5px 25px #333;
@@ -139,6 +140,7 @@ body {
   bottom: 0;
   width: 175px;
   height: auto;
+  background: none;
 }
 
 #firepad-container .firepad {
@@ -149,6 +151,10 @@ body {
   bottom: 0;
   width: auto;
   height: auto;
+}
+
+.firepad.CodeMirror {
+  background: rgba(255, 255, 255, 0.7);
 }
 /*
 #share-box {

@@ -48,7 +48,7 @@ var FirepadUserList = (function() {
     });
 
     return elt('div', [
-      elt('span', 'ONLINE ('),
+      elt('span', 'DIRBA ('),
       counterSpan,
       elt('span', ')')
     ], { 'class': 'firepad-userlist-heading' });
@@ -56,6 +56,7 @@ var FirepadUserList = (function() {
 
   FirepadUserList.prototype.makeUserEntryForSelf_ = function() {
     var myUserRef = this.ref_.child(this.userId_);
+    var croods = ['Grug', 'Eep', 'Guy', 'Ugga', 'Gran', 'Thunk', 'Belt', 'Sandy'];
 
     var colorDiv = elt('div', null, { 'class': 'firepad-userlist-color-indicator' });
     this.firebaseOn_(myUserRef.child('color'), 'value', function(colorSnapshot) {
@@ -68,11 +69,12 @@ var FirepadUserList = (function() {
     var nameInput = elt('input', null, { type: 'text', 'class': 'firepad-userlist-name-input'} );
     nameInput.value = this.displayName_;
 
-    var nameHint = elt('div', 'ENTER YOUR NAME', { 'class': 'firepad-userlist-name-hint'} );
+    var nameHint = elt('div', 'JŪSŲ VARDAS', { 'class': 'firepad-userlist-name-hint'} );
 
     // Update Firebase when name changes.
     on(nameInput, 'change', function(e) {
-      var name = nameInput.value || "Guest " + Math.floor(Math.random() * 1000);
+//      var name = nameInput.value || "Guest " + Math.floor(Math.random() * 1000);
+      var name = nameInput.value || croods[Math.floor(Math.random() * 8)];
       myUserRef.child('name').onDisconnect().remove();
       myUserRef.child('name').set(name);
       nameHint.style.display = 'none';
